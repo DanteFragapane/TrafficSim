@@ -1,13 +1,15 @@
 #include <iostream>
-#include "Person.h"
-#include "Family.h"
+#include <fstream>
 #include "Home.h"
+//#include "male.txt"
+//#include "female.txt"
 using namespace std;
 
-int main() 
-{
-	cout << "Hello World!" << endl;
+string male_names[] = { "Guillermo", "Chase","Israel", "Reynaldo", "Burton", "Dante", "Max", "Luca", "Troy", "Luis", "Matt", "Nate" };
 
+
+int main()
+{
 	Person Dante = Person("Dante");
 	Person Max = Person("Max");
 	Person Luca = Person("Luca");
@@ -20,4 +22,10 @@ int main()
 
 	vector<Family> families = { Fragapanes, Sextons };
 	Home Home1 = Home("Home1", families);
+
+	vector<Person> personList;
+	for (int i = 0; i < 12; i++) {
+		personList.push_back(Person(male_names[i]));
+	}
+
 }
