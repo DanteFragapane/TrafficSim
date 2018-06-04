@@ -39,4 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Male_Names.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Female_Names.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
