@@ -1,10 +1,11 @@
 #pragma once
+#include "Building.h"
 #include "Family.h"
-#include <vector>
-using namespace std;
 
-class Home {
-	string houseName;
+class Home :
+	public Building
+{
+	string buildingName;
 	vector<Family> families;
 
 	public:
@@ -12,12 +13,12 @@ class Home {
 		~Home();
 
 		Home(string name, vector<Family> familyList) {
-			houseName = name;
+			buildingName = name;
 			families = familyList;
 		}
 
 		string getHouseName() {
-			return houseName;
+			return buildingName;
 		}
 
 		vector<Family> getFamilies() {

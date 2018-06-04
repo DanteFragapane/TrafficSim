@@ -5,10 +5,11 @@
 using namespace std;
 
 class Family {
-	string familyName;
+	//string familyName;
 	vector<Person> people;
 
 	public:
+		string familyName;
 		Family();
 		~Family();
 

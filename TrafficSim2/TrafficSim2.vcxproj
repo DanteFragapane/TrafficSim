@@ -115,12 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Building.cpp" />
     <ClCompile Include="Family.cpp" />
     <ClCompile Include="Home.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Building.h" />
     <ClInclude Include="Family.h" />
     <ClInclude Include="Home.h" />
     <ClInclude Include="Person.h" />

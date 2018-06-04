@@ -3,9 +3,9 @@
 using namespace std;
 
 class Person {
-	string personName = "Dante";
 
 public:
+	string personName;
 	Person();
 	~Person();
 

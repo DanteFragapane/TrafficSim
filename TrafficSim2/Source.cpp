@@ -43,6 +43,8 @@ int main()
 			cout << endl;
 		}
 	}
+	mFile.close();
+	fFile.close();
 
 	for (int j = 0; j < 50; j++) {
 		// Create a vector<Person> pair for a male and female couple
@@ -72,4 +74,10 @@ int main()
 		homesFile << homes[m].getHouseName() << endl;
 	}
 
-}
+	homesFile << buildingName[0] + " has ";
+	for (Person member : families[0].getNames()) {
+		homesFile << member.personName + " ";
+	}
+
+	homesFile.close();
+	buildingNameFile.close();}
