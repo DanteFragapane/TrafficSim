@@ -46,5 +46,11 @@
     <Text Include="Female_Names.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="Homes.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Building_Names.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

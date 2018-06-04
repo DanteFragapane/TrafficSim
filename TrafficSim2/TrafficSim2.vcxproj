@@ -126,7 +126,9 @@
     <ClInclude Include="Person.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Building_Names.txt" />
     <Text Include="Female_Names.txt" />
+    <Text Include="Homes.txt" />
     <Text Include="Male_Names.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
