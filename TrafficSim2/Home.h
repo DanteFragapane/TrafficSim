@@ -22,6 +22,6 @@ class Home {
 
 		vector<Family> getFamilies() {
 			return families;
-		}		
+		}
 };
 

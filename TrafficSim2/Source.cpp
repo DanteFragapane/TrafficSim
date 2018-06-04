@@ -55,7 +55,8 @@ int main()
 	ifstream buildingNameFile;
 	buildingNameFile.open("Building_Names.txt");
 	string buildingName;
-	for (int k = 0; k < 25; k++) {
+	for (int k = 0; 
+		k < 25; k++) {
 		vector<Family> famList;
 		for (int l = 0; l < 25; l++) {
 			famList.push_back(families[l]);
